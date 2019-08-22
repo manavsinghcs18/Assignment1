@@ -9,11 +9,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner val = new Scanner(System.in);
-        String n;
-        System.out.println("Enter the string");
-        n = val.next();
-        System.out.println("Welcome, " + n);
+        Scanner scanner = new Scanner(System.in);
+        String userName = "";
+        Scanner.close();
 
     }
 }
